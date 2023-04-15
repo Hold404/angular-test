@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+
+  background: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  &-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 15px 0;
+  }
+
+  &__logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+}
